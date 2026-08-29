@@ -1,5 +1,6 @@
 # kaku official
 
-kaku desktop アプリ (macOS / Windows) の配布用リポジトリ。
+kaku デスクトップアプリの配布用リポジトリ。
 
-最新版: https://github.com/callmegema/kaku-official/releases/latest/download/kaku_aarch64.dmg
+macOS(Apple Silicon): https://github.com/callmegema/kaku-official/releases/latest/download/kaku_aarch64.dmg  
+Windows(x64): https://github.com/callmegema/kaku-official/releases/latest/download/kaku_x64-setup.exe
