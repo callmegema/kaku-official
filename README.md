@@ -1,27 +1,27 @@
-# kaku
+# 🌚 kaku
 
 kaku is a local-first Markdown editor where AI agents edit your notes directly, alongside you, without breaking them.
 
-Website: https://kaku.md/en/
+**[Website](https://kaku.md/en/)** · **[Download](#install)** · **[Issues](https://github.com/callmegema/kaku-official/issues)**
 
-![kaku: AI edits shown as a diff, automatic context, and a branching chat tree](./images/desktop.png)
+![kaku: AI edits shown as a diff, automatic context, and a branching chat tree](./assets/howtouse.png)
 
 ## Features
 
-  - **Direct AI editing, without breaking your notes**
-    - Claude Code, Codex or any agent edits Markdown directly. Review as diffs, accept or reject per hunk. Nothing lands until you accept it.
-  - **Automatic context**
-    - Context is gathered automatically from links, backlinks, and related notes—inspect it as a graph.
-  - **Branching chats**
-    - Explore multiple approaches in parallel and compare them in a conversation tree.
-  - **Local-first. It's just files.**
-    - Markdown in your folder, chat history in SQLite beside it. No import, no MCP required, no proprietary API—Git, CLI, SQL, and Agent Skills already work.
-  - **Conflict-free**
-    - CRDT-based editing. You, your agents, and external tools can write to the same note at the same time—no lost edits.
-  - **Bring your own AI, free**
-    - Your agents, your accounts. kaku is free, no markup on AI usage.
-  - **Live-preview WYSIWYG Markdown editor**
-    - Obsidian-compatible `[[links]]`, plus built-in viewers for HTML, PDF, and images.
+- **Direct AI editing, without breaking your notes**
+  - Claude Code, Codex or any agent edits Markdown directly. Review as diffs, accept or reject per hunk. Nothing lands until you accept it.
+- **Automatic context**
+  - Context is gathered automatically from links, backlinks, and related notes—inspect it as a graph.
+- **Branching chats**
+  - Explore multiple approaches in parallel and compare them in a conversation tree.
+- **Local-first. It's just files.**
+  - Markdown in your folder, chat history in SQLite beside it. No import, no MCP required, no proprietary API—Git, CLI, SQL, and Agent Skills already work.
+- **Conflict-free**
+  - CRDT-based editing. You, your agents, and external tools can write to the same note at the same time—no lost edits.
+- **Bring your own AI, free**
+  - Your agents, your accounts. kaku is free, no markup on AI usage.
+- **Live-preview WYSIWYG Markdown editor**
+  - Obsidian-compatible `[[links]]`, plus built-in viewers for HTML, PDF, and images.
 
 ## Install
 
