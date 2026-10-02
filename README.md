@@ -16,12 +16,14 @@ kaku is a local-first Markdown editor where AI agents edit your notes directly, 
   - Explore multiple approaches in parallel and compare them in a conversation tree.
 - **Local-first. It's just files.**
   - Markdown in your folder, chat history in SQLite beside it. No import, no MCP required, no proprietary API—Git, CLI, SQL, and Agent Skills already work.
+- **Auto organize. You decide.**
+  - Tags from your existing vocabulary, inbox notes into your folders, moods from your journal by emotions you define. kaku scores each as a probability and writes only what clears your threshold; unsure ones come to you, all undoable.
 - **Conflict-free**
   - CRDT-based editing. You, your agents, and external tools can write to the same note at the same time—no lost edits.
 - **Bring your own AI, free**
   - Your agents, your accounts. kaku is free, no markup on AI usage.
 - **Live-preview WYSIWYG Markdown editor**
-  - Obsidian-compatible `[[links]]`, plus built-in viewers for HTML, PDF, and images.
+  - Obsidian-compatible `[[links]]`, plus built-in viewers for HTML, PDF, Office documents, images, audio, and video.
 
 ## Install
 
@@ -37,8 +39,8 @@ All releases are listed on the [Releases](https://github.com/callmegema/kaku-off
 ### Getting started
 
 1. Launch kaku and open a folder that contains your Markdown files. An empty folder works too.
-2. Point your AI agent at the same folder. Claude Code, Codex, Cursor, and any other tool that edits files will work as-is. Their changes appear in kaku as a diff.
-3. To chat inside kaku, sign in with your ChatGPT account or set an API key for Anthropic, OpenAI, Gemini, or OpenRouter in Settings.
+2. Point your AI agent at the same folder. Claude Code, Codex, Cursor, and any other tool that edits files work as-is. Their changes appear in kaku as a diff.
+3. To chat inside kaku, pick a Claude Code, Codex, or Cursor CLI already installed on your machine as the Agent, or sign in with your ChatGPT account or set an API key for Anthropic, OpenAI, Gemini, or OpenRouter in Settings.
 
 ## Official documentation
 
